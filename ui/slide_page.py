@@ -53,14 +53,16 @@ def build_slide_page(slide: SlideData) -> Gtk.Widget:
         picture.set_halign(Gtk.Align.CENTER)
         page_box.append(picture)
     elif slide.icon:
-        # Fall back to a themed icon rendered at a large pixel size.
-        icon_image = Gtk.Image.new_from_icon_name(slide.icon)
-        icon_image.set_pixel_size(96)
+        if "/" in slide.icon or slide.icon.endswith((".png", ".svg", ".jpg")):
+            icon_image = Gtk.Picture.new_for_filename(slide.icon)
+            icon_image.set_size_request(200, 200)
+        else:
+            icon_image = Gtk.Image.new_from_icon_name(slide.icon)
+            icon_image.set_pixel_size(96)
+
         icon_image.set_halign(Gtk.Align.CENTER)
-        # Add the "dim-label" style so the icon inherits the accent colour
-        # from the active theme rather than being plain grey.
-        icon_image.add_css_class("accent")
         page_box.append(icon_image)
+
 
     # ── Title ─────────────────────────────────────────────────────────────
     title_label = Gtk.Label(label=slide.title)
