@@ -3,7 +3,7 @@
     "id": "welcome",
     "title": "Welcome to ZeXis",
     "description": "A fast, modern, and privacy-respecting Linux desktop experience. Let's take a quick tour of what makes ZeXis special.",
-    "icon": "start-here-symbolic",
+    "icon": "resources/zexis-wlogo.png",
     "accent": "blue"
   },
   {
