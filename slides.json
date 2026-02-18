@@ -14,6 +14,13 @@
     "accent": "green"
   },
   {
+    "id": "presswin",
+    "title": "Press the Super Key",
+    "description": "Press it once or double-tap it to open the Activities overview. From here, you can search for apps, files, and settings, or switch between open windows and workspaces.",
+    "icon": "resources/windowsos.png",
+    "accent": "cyan"
+  },
+  {
     "id": "privacy",
     "title": "Your Privacy, Protected",
     "description": "ZeXis ships with sensible privacy defaults. No telemetry is collected without your consent, and all updates are signed and verified.",
