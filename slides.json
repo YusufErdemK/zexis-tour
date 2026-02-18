@@ -1,0 +1,45 @@
+[
+  {
+    "id": "welcome",
+    "title": "Welcome to ZeXis",
+    "description": "A fast, modern, and privacy-respecting Linux desktop experience. Let's take a quick tour of what makes ZeXis special.",
+    "icon": "start-here-symbolic",
+    "accent": "blue"
+  },
+  {
+    "id": "apps",
+    "title": "Everything You Need",
+    "description": "ZeXis comes pre-loaded with a curated set of applications — a web browser, office suite, media player, and developer tools — ready to use from day one.",
+    "icon": "view-grid-symbolic",
+    "accent": "green"
+  },
+  {
+    "id": "privacy",
+    "title": "Your Privacy, Protected",
+    "description": "ZeXis ships with sensible privacy defaults. No telemetry is collected without your consent, and all updates are signed and verified.",
+    "icon": "security-high-symbolic",
+    "accent": "orange"
+  },
+  {
+    "id": "updates",
+    "title": "Always Up to Date",
+    "description": "The ZeXis Software Center makes installing, updating, and removing software simple. Automatic security updates keep you protected in the background.",
+    "icon": "software-update-available-symbolic",
+    "accent": "purple"
+  },
+  {
+    "id": "community",
+    "title": "Join the Community",
+    "description": "Got questions? Our forums, wiki, and chat rooms are staffed by friendly community members and developers ready to help you get the most out of ZeXis.",
+    "icon": "community-symbolic",
+    "accent": "teal"
+  },
+  {
+    "id": "finish",
+    "title": "You're All Set!",
+    "description": "That's everything you need to know to get started. We hope you enjoy ZeXis — built with care, by the community, for everyone.",
+    "icon": "emblem-ok-symbolic",
+    "accent": "blue",
+    "is_final": true
+  }
+]
