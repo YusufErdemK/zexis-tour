@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# GTK build / temp
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
