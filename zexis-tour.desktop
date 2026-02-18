@@ -1,20 +1,8 @@
 [Desktop Entry]
 Name=ZeXis Tour
 Comment=First-run onboarding tour for ZeXis Linux
-# Adjust the Exec path to match your installation directory.
 Exec=/usr/share/zexis-tour/main.py
-# Alternatively, if installed as a Python package or script:
-# Exec=zexis-tour
-Icon=start-here
-Terminal=false
+Icon=desktop-environment-gnome
 Type=Application
-# X-GNOME-Autostart-Delay gives the desktop shell time to fully load before
-# the tour window appears, avoiding a race with the session startup.
-X-GNOME-Autostart-Delay=3
-X-GNOME-Autostart-enabled=true
-# NotShowIn keeps the entry from firing inside other desktop environments
-# that may not have libadwaita available.
-# Remove or adjust this line if ZeXis supports additional DEs.
-OnlyShowIn=GNOME;
-# Categories are informational (autostart entries don't appear in app menus).
-Categories=GNOME;System;
+Hidden=false
+NoDisplay=true
