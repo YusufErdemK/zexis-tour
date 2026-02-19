@@ -69,7 +69,9 @@ cp slides.json "$INSTALL_DIR/"
 cp -r resources "$INSTALL_DIR/"
 cp zexis-tour.desktop /usr/share/applications/
 cp zexis-tour.desktop /etc/skel/.config/autostart/
+cp zexis-tour /usr/bin/zexis-tour
 
 chmod +x "$INSTALL_DIR/main"
+chmod +x /usr/bin/zexis-tour
 
 echo "$MSG_DONE_INSTALL"
