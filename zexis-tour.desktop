@@ -1,8 +1,8 @@
 [Desktop Entry]
 Name=ZeXis Tour
 Comment=First-run onboarding tour for ZeXis Linux
-Exec=/usr/share/zexis-tour/main.py
+Exec=/usr/local/share/zexis-tour/main
 Icon=org.gnome.Tour
 Type=Application
-Hidden=false
-NoDisplay=true
+Terminal=false
+Categories=Utility;
