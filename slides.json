@@ -3,7 +3,7 @@
     "id": "welcome",
     "title": "Welcome to ZeXis",
     "description": "A fast, modern, and privacy-respecting Linux desktop experience. Let's take a quick tour of what makes ZeXis special.",
-    "icon": "resources/zexis-wlogo.png",
+    "icon": "/usr/local/share/zexis-tour/resources/zexis-wlogo.png",
     "accent": "blue"
   },
   {
@@ -17,7 +17,7 @@
     "id": "presswin",
     "title": "Press the Super Key",
     "description": "Press it once or double-tap it to open the Activities overview. From here, you can search for apps, files, and settings, or switch between open windows and workspaces.",
-    "icon": "resources/windowsos.png",
+    "icon": "/usr/local/share/zexis-tour/resources/windowsos.png",
     "accent": "cyan"
   },
   {
