@@ -1,16 +1,19 @@
-# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Virtual environment
-venv/
+*.cache/
 .env/
-
-# GTK build / temp
+.env*/
+.venv/
+build/
+dist/
+*.spec
 *.log
-
-# OS junk
+*.tmp
 .DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.deb
+*.rpm
